@@ -1,0 +1,26 @@
+<div class="row text-center mt-2 p-5 mb-5 content">
+    <div class="col-md-7">
+        <h1><img src="img/logo.png"> Image to PDF Convertor</h1>
+        <form action="/upload" class="md-form mt-5" method="POST" enctype="multipart/form-data">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" name="image" required>
+                    <label class="custom-file-label" for="inputGroupFile01">Choose image</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success mt-3">Convert to PDF</button>
+        </form>
+    </div>
+    <div class="col-md-5 p-5">
+        <h3>Note:</h3>
+        <ul>
+            <li>Try uploading a high resolution image for better result.</li>
+            <li>After uploading the image, click the <b>'Covert to PDF'</b> button to start converting.</li>
+            <li>The PDF generated will request you to download the file.</li>
+            <li>The PDF generated may take some time depending upon the size of the image</li>
+        </ul>
+    </div>
+</div>
